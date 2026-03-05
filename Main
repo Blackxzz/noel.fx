@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hspixel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<header>
+    <div class="logo">
+    
+    HS PIXEL</div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href='/index2'>Services</a>
+        <a href='/index2'>Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h1>Designing The Future With Creativity</h1>
+        <p>We build bold digital experiences for modern brands.</p>
+        <a href='/index2'><button class="btn"> Start Your Project</button></a>
+        
+        
+    </div>
+</section>
+
+<!-- Stats -->
+<section class="stats">
+    <div class="stat">
+        <h3 class="counter" data-target="100"></h3>
+        <p>Projects Completed</p>
+    </div>
+    <div class="stat">
+        <h3 class="counter" data-target="60">+</h3>
+        <p>Happy Clients</p>
+    </div>
+    <div class="stat">
+        <h3 class="counter" data-target="3">+</h3>
+        <p>Years Experience</p>
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+        <a href="http://wa.me/c/918943262789"><button class="btn-w">WhatsApp</button></a>
+    </form>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="newsletter">
+        <h3>Subscribe to our Community</h3>
+        <input type="email" placeholder="Enter your email">
+        <button class="btn">Subscribe</button>
+    </div>
+    <p>© 2026 HS CREATIVE DESIGNS. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
