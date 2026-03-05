@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hspixel.in</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="logo">
+    
+    HS PIXEL</div>
+    <nav>
+        <a href='/'>Home</a>
+        <a href='/index2'>Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href='/'>Contact</a>
+    </nav>
+</header
+
+    <!-- Services -->
+<section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Web Design</h3>
+            <p>Modern, responsive and performance-focused websites.</p>
+        </div>
+        <div class="card">
+            <h3>Brand Identity</h3>
+            <p>Creative branding that speaks your vision.</p>
+        </div>
+        <div class="card">
+            <h3>UI/UX Design</h3>
+            <p>Seamless user experiences with elegant interfaces.</p>
+        </div>
+        <div class="card">
+            <h3>Grafic Designing</h3>
+            <p>communicate ideas clearly and attractively.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio -->
+<section id="portfolio" class="portfolio">
+    <h2>Our Work</h2>
+    <div class="grid">
+        <div class="project"><img class="img" src="public/work-1.png" alt="">Portfolio</div>
+        <div class="project"><img class="img" src="public/work-2.jpg" alt="">Poster Designing</div>
+        <div class="project"><img class="img" src="public/work-3.jpg" alt="">Brand Identity</div>
+        <div class="project"><img class="img" src="public/work-4.jpg" alt="">Business Card</div>
+    </div>
+</section>
+<!-- Footer -->
+<footer>
+    <div class="newsletter">
+        <h3>Click below for your Project
+        </h3>
+        <a href="http://wa.me/c/918943262789"><button class="btn">WhatsApp</button></a>
+    </div>
+    <p>© 2026 HS CREATIVE DESIGNS. All rights reserved.</p>
+</footer>
+</body>
+</html>
